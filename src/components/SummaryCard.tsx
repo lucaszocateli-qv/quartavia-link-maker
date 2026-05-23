@@ -25,7 +25,7 @@ export function SummaryCard({ estrategista, telefone, valorTotal, pagamentos }: 
 
       <dl className="space-y-3 text-sm">
         <Row label="Produto" value="Pharus" />
-        <Row label="Estrategista" value={estrategista || "—"} />
+        <Row label="Closer" value={estrategista || "—"} />
         <Row label="Telefone" value={telefone || "—"} />
         <Row label="Valor total" value={formatBRL(valorTotal)} highlight />
       </dl>

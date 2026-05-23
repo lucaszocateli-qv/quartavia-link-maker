@@ -34,7 +34,8 @@ export function ConfirmModal({ open, payload, loading, onCancel, onConfirm }: Pr
 
         <div className="mt-5 space-y-2 text-sm rounded-xl border border-border bg-surface-elevated/60 p-4">
           <Row k="Produto" v={payload.produto} />
-          <Row k="Estrategista" v={payload.estrategista} />
+          <Row k="Closer" v={payload.estrategista} />
+          <Row k="User ID" v={payload.user_id} />
           <Row k="Telefone" v={payload.telefone_cliente} />
           <Row k="Valor total" v={formatBRL(payload.valor_total)} highlight />
           <div className="pt-2 mt-2 border-t border-border">
