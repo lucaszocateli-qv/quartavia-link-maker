@@ -27,7 +27,6 @@ import { fetchClosers, type CloserOption } from "@/lib/closers";
 import { CurrencyInput } from "@/components/CurrencyInput";
 import { PaymentLinesEditor } from "@/components/PaymentLinesEditor";
 import { SummaryCard } from "@/components/SummaryCard";
-import { PayloadInspector } from "@/components/PayloadInspector";
 import { ConfirmModal } from "@/components/ConfirmModal";
 
 export const Route = createFileRoute("/")({
@@ -615,10 +614,6 @@ function SuccessScreen({
               </ul>
             </div>
             <Row k="Status" v="Links gerados" />
-          </div>
-
-          <div className="mt-6">
-            <PayloadInspector payload={{ payload_enviado: payload, resposta_webhook: response.raw }} />
           </div>
 
           <button
