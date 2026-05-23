@@ -367,11 +367,7 @@ function Index() {
               )}
             </div>
 
-            <div className="mt-8">
-              <PayloadInspector payload={payload} />
-            </div>
-
-            <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div className="mt-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
               <p className="text-xs text-muted-foreground inline-flex items-center gap-1.5">
                 <ShieldCheck className="size-3.5" />
                 Uso interno QuartaVia · dados não são compartilhados externamente.
