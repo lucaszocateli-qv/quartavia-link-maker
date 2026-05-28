@@ -95,7 +95,7 @@ export function PaymentLinesEditor({ lines, onChange }: Props) {
                   }
                   className="w-full rounded-lg bg-input border border-border px-3 py-2.5 text-foreground focus:outline-none focus:ring-2 focus:ring-primary/60 focus:border-primary disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  {(isPix ? [1] : Array.from({ length: 12 }, (_, i) => i + 1)).map(
+                  {(isPix ? [1] : Array.from({ length: 18 }, (_, i) => i + 1)).map(
                     (n) => (
                       <option key={n} value={n}>
                         {n}x
